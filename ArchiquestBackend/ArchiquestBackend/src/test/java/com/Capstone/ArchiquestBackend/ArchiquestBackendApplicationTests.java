@@ -1,10 +1,10 @@
-package com.ArchiquestBackend.Archiquest;
+package com.Capstone.ArchiquestBackend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ArchiquestApplicationTests {
+class ArchiquestBackendApplicationTests {
 
 	@Test
 	void contextLoads() {
