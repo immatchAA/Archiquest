@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useRouter } from 'expo-router';
 import {
   View,
   Text,
@@ -10,6 +11,7 @@ import {
 import { Ionicons } from '@expo/vector-icons';
 
 const LoginScreen = () => {
+  const router = useRouter();
   const [userType, setUserType] = useState('student');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -98,7 +100,10 @@ const LoginScreen = () => {
         </TouchableOpacity>
 
         {/* Login Button */}
-        <TouchableOpacity style={styles.loginButton}>
+        <TouchableOpacity
+          style={styles.loginButton}
+          onPress={() => router.push('/mainlanding')}
+        >
           <Text style={styles.loginButtonText}>LOGIN</Text>
         </TouchableOpacity>
 
