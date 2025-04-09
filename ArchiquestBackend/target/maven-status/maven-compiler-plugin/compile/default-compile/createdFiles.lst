@@ -1,8 +1,0 @@
-com\Capstone\ArchiquestBackend\Controller\StudentController.class
-com\Capstone\ArchiquestBackend\Repository\StudentRepo.class
-com\Capstone\ArchiquestBackend\Entity\StudentEntity.class
-com\Capstone\ArchiquestBackend\DTO\StudentDTO.class
-com\Capstone\ArchiquestBackend\Service\IMPL\StudentIMPL.class
-com\Capstone\ArchiquestBackend\ArchiquestBackendApplication.class
-com\Capstone\ArchiquestBackend\Config\SecurityConfig.class
-com\Capstone\ArchiquestBackend\Service\StudentService.class
