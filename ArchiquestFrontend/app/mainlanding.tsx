@@ -77,8 +77,11 @@ const MainLandingPage = () => {
       <View style={styles.loadingPlaceholder} />
       <View style={styles.cardInfo}>
         <Text style={styles.cardTitle}>Cost Estimate Simulator</Text>
-        <TouchableOpacity style={styles.cardButton}>
-          <Text style={styles.cardButtonText}>START</Text> 
+        <TouchableOpacity 
+          style={styles.cardButton} 
+          onPress={() => router.push('/CostEstimateSimulator')}
+        >
+          <Text style={styles.cardButtonText}>START</Text>
         </TouchableOpacity>
         <TouchableOpacity
             onPress={() => openHelpModalWithMessage(
